@@ -1,0 +1,104 @@
+body{
+	background-color: #2fabf9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@font-face{
+	font-family: Rumpelstiltskin;
+	src: url('../fonts/Rumpelstiltskin.ttf');
+}
+
+/*--------------------------------- NAV BAR --------------------------------- */
+
+.navbar-default{
+	background-color: #ffffff;
+}
+
+.custom.navbar-brand{
+	height: auto;
+	width: auto;
+	padding: 0 0 0 20px;
+}
+
+.nav-option{
+	padding: 20px;
+	border-left: 2px solid #e8e8e8;
+}
+
+.nav-option a{
+	font-size: 1.5em;
+}
+
+/*--------------------------------- JUMBOTRON --------------------------------- */
+
+.jumbotron{
+	overflow: auto;
+	margin-top: 110px;
+	background: url('../images/tile2.png') top left;
+}
+
+.jumbotron h1{
+	font-family: Rumpelstiltskin;
+	font-weight: 800;
+	text-align: center;
+}
+
+.jumbotron #main-info{
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 9px 9px 37px -5px rgba(0,0,0,0.75);
+}
+
+.jumbotron #age-range{
+	border-radius: 10px;
+	border: 3px solid #1b88cd;
+	background-color: #ffffff;
+	clear: right;
+	float: none;
+	margin: 10px 0;
+}
+
+.jumbotron #age-range p{
+	color: #2fabf9;
+	font-weight: 800;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+.jumbotron .or{
+	text-align: center;
+	width: 100%;
+
+}
+
+.jumbotron .main-button.trial a{
+	background-color: #ff515a;
+	border: none;
+}
+
+.jumbotron .main-button a{
+	width: 100%;
+	font-size: 1.5em;
+	margin: 10px 0;
+}
+
+.jumbotron .mini-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*--------------------------------- LET'S PLAY --------------------------------- */
+
+#lets-play{
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin: 0 auto;
+	float: none;
+	overflow: auto;
+}
+
+
+
+
