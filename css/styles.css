@@ -33,7 +33,6 @@ body{
 
 .jumbotron{
 	overflow: auto;
-	margin-top: 110px;
 	background: url('../images/tile2.png') top left;
 }
 
